@@ -77,7 +77,6 @@ ul li{
 }
 
 .about-section02{
-    /* width: 100%; */
     background-image: url(./img/img_about_background2.png);
 }
 .about-section03{
@@ -89,19 +88,23 @@ section{
 .card{
     display: flex;
 }
+.card:hover{
+    border-radius:5px ;
+    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+    -webkit-transition: opacity 0.5s ease-in-out;
+    -moz-transition: opacity 0.5s ease-in-out;
+    -o-transition: opacity 0.5s ease-in-out;
+    transition: opacity 0.5s ease-in-out;
+}
 .card-img{
     width: 631px;
     height: 536px;
-    border-radius:5px ;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .card-content{
     width: 650px;
     padding-top: 150px;
     padding-left: 80px;
     background-color: #ffffff;
-    border-radius:5px ;
-    box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 .card-title{
     color: #FFBD3A;
@@ -117,6 +120,7 @@ section{
 .about-section{
 background-image: url(./img/img_about_background2.png);
 }
+
 /* h1{
     border-bottom: 1.5px solid blue;
     width: fit-content; 
